@@ -1,0 +1,35 @@
+.box1 {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: greenyellow;
+}
+
+.box2 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: turquoise;
+  width: 90%;
+}
+
+.box3 {
+  display: flex;
+  align-items: center;
+  background-color: pink;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+}
+
+.box4 {
+  display: flex;
+  align-items: center;
+  background-color: purple;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+}
