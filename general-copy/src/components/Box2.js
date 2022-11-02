@@ -1,5 +1,12 @@
+import "./Boxes.css";
+import Box3 from "./Box3";
+
 function Box2() {
-  return <div className="box2"></div>;
+  return (
+    <div className="box2">
+      <Box3></Box3>
+    </div>
+  );
 }
 
 export default Box2;

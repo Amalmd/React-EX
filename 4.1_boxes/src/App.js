@@ -6,11 +6,7 @@ import Box3 from "./components/Box3";
 function App() {
   return (
     <div className="App">
-      <Box1>
-        <Box2>
-          <Box3></Box3>
-        </Box2>
-      </Box1>
+      <Box1></Box1>
     </div>
   );
 }

@@ -1,15 +1,10 @@
 import "./Boxes.css";
+import Box2 from "./Box2";
 
 function Box1() {
   return (
     <div className="box1">
-      <div className="box2">
-        <div className="box3">
-          <div className="box4">
-            <div></div>
-          </div>
-        </div>
-      </div>
+      <Box2></Box2>
     </div>
   );
 }
