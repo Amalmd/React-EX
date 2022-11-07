@@ -7,7 +7,7 @@ function BoxButton(props) {
 
   const clickHandler = () => {
     console.log(showBox);
-    setShowBox(!showBox);
+    setShowBox((prevState) => !prevState);
   };
 
   return (
