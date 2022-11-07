@@ -1,12 +1,10 @@
 import "./App.css";
-import Quiz from "./components/Quiz";
+import Button from "./components/Button";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Quiz></Quiz>
-      </header>
+    <div>
+      <Button type="button">Important</Button>
     </div>
   );
 }
