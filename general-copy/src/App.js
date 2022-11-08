@@ -1,5 +1,6 @@
+import { useState } from "react";
 import "./App.css";
-import Message from "./Components/Message";
+import "./Components/style.css";
 
 function App() {
   return <div className="app"></div>;
