@@ -1,9 +1,10 @@
-import { useState } from "react";
+import React from "react";
 import "./App.css";
 import "./Components/style.css";
+import VideoPlayer from "./Components/VideoPlayer";
 
 function App() {
-  return <div className="app"></div>;
+  return <VideoPlayer />;
 }
 
 export default App;
