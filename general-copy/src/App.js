@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
+import ImageHover from "./Components/ImageHover";
 import "./Components/style.css";
-import VideoPlayer from "./Components/VideoPlayer";
 
 function App() {
-  return <VideoPlayer />;
+  return <ImageHover />;
 }
 
 export default App;
