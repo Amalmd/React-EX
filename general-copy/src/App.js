@@ -1,11 +1,19 @@
+import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
 import "./App.css";
-import TodoHandler from "./Components/TodoHandler";
+import Error from "./Components/Error";
+import Navbar from "./Components/NavBar";
+import EditPage from "./Pages/EditPage";
+import MainPage from "./Pages/MainPage";
 
 function App() {
   return (
-    <div className="App">
-      <TodoHandler />
-    </div>
+    <Routes>
+      <Navbar />
+
+      <Route path="/" exact component={MainPage} />
+      <Route path="/edit/:id" exact component={EditPage} />
+      <Route path="/*" exact component={Error} />
+    </Routes>
   );
 }
 
